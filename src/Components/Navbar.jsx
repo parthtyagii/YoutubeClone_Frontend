@@ -12,7 +12,7 @@ const Navbar = () => {
     return (
         <div className='w-full h-[10vh] sticky top-0 flex border-b-[1px] text-[#282828] '>
 
-            <div className="w-[20%] h-full px-[2rem] flex justify-start items-center gap-x-[2rem] ">
+            <div className="w-[20%] h-full ml-[1.5rem] flex justify-start items-center gap-x-[1.5rem] ">
                 <button className='p-[0.8rem] rounded-[50%] flex justify-center items-center hover:bg-gray-200 '>
                     <RxHamburgerMenu className='text-[2rem]  ' />
                 </button>
@@ -22,7 +22,7 @@ const Navbar = () => {
                 </span>
             </div>
 
-            <div className="w-[60%] h-full flex justify-center items-center gap-x-[1rem]  ">
+            <div className="w-[65%] h-full flex justify-center items-center gap-x-[1rem]  ">
                 <div className="w-[70%] h-[65%] flex items-center rounded-[5rem] border-[1px] border-gray-400 overflow-hidden ">
                     <input type="text" className='w-[88%] h-full text-[1.5rem] font-[400] border-r-[1px] border-gray-400 rounded-l-[5rem] px-[3%] ' placeholder='Search' />
                     <button className='w-[12%] h-full text-[1.8rem] flex justify-center items-center bg-gray-100  '>
@@ -34,7 +34,7 @@ const Navbar = () => {
                 </button>
             </div>
 
-            <div className="w-[20%] h-full px-[2rem] flex justify-end items-center gap-x-[1rem]  ">
+            <div className="w-[15%] h-full px-[0rem] flex justify-center items-center gap-x-[1rem]  ">
                 <button className='p-[0.8rem] rounded-[50%] flex justify-center items-center hover:bg-gray-200 '>
                     <BiVideoPlus className='text-[2.5rem] ' />
                 </button>
