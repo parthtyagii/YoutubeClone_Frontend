@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
 import Navbar from './Components/Navbar';
-import Main from './Components/Main';
+import SearchedMain from './Components/SearchedMain';
+import HomepageMain from './Components/HomepageMain';
 
 
 
@@ -9,7 +10,9 @@ const App = () => {
   return (
     <div className='w-[100%] h-auto flex flex-col '>
       <Navbar />
-      <Main />
+      {/* <HomepageMain /> */}
+      <SearchedMain />
+
     </div>
   )
 };
