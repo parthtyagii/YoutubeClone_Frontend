@@ -10,7 +10,7 @@ import { BsYoutube } from 'react-icons/bs';
 const Navbar = () => {
 
     return (
-        <div className='w-full h-[10vh] sticky top-0 flex border-b-[1px] text-[#282828] '>
+        <div className='w-full h-[10vh] sticky top-0 flex text-[#282828] bg-white '>
 
             <div className="w-[20%] h-full ml-[1.5rem] flex justify-start items-center gap-x-[1.5rem] ">
                 <button className='p-[0.8rem] rounded-[50%] flex justify-center items-center hover:bg-gray-200 '>
