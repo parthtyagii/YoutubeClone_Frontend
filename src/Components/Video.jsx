@@ -26,18 +26,18 @@ const Video = () => {
                     </span>
 
                     <span className=" h-auto flex flex-col  ">
-                        <span className="text-[1.7rem] font-[500] flex items-center gap-x-[0.8rem]  ">Mrwhosetheboss <FaCheckCircle className='text-[1.2rem]  ' /></span>
-                        <span className="text-[1.2rem] font-[500] ">15.9M subscribers</span>
+                        <span className="text-[1.7rem] font-[500] flex items-center gap-x-[0.5rem]  ">Mrwhosetheboss <FaCheckCircle className='text-[1.3rem]  ' /></span>
+                        <span className="text-[1.2rem] font-[500] text-gray-500 ">15.9M subscribers</span>
                     </span>
 
-                    <button className="p-[1rem] px-[1.5rem] rounded-[5rem] text-[1.4rem] font-[500] flex items-center gap-x-[0.5rem] text-white bg-black  ">
+                    <button className="p-[0.8rem] px-[1.5rem] rounded-[5rem] text-[1.4rem] font-[500] flex items-center gap-x-[0.5rem] text-white bg-black  ">
                         {/* <IoMdNotificationsOutline className="text-[2.2rem]  " /> */}
                         <span>Subscribed</span>
                     </button>
                 </div>
 
                 <div className="w-auto h-auto flex items-center gap-x-[1rem] ">
-                    <span className="py-[1rem] flex items-center rounded-[5rem] bg-gray-200 ">
+                    <span className="py-[0.8rem] flex items-center rounded-[5rem] bg-gray-200 ">
                         <button className="px-[1.5rem] text-[1.4rem] font-[500] flex items-center gap-x-[0.5rem] border-r-[1px] border-black "><AiOutlineLike className="text-[2.2rem] " /> 123K</button>
                         <button className="px-[1.5rem] text-[1.4rem] font-[500] flex items-center "><AiOutlineDislike className="text-[2.2rem] " /></button>
                     </span>
@@ -105,6 +105,48 @@ const Video = () => {
             {/*  All the new comments will be added here... */}
 
             <div className="w-[90%] h-auto p-[1rem] flex flex-col gap-y-[2rem] whitespace-pre-wrap  ">
+
+                <div className="w-full h-auto flex gap-x-[2rem]  ">
+                    <div className="w-[4.5rem] h-[4.5rem] rounded-[50%] overflow-hidden bg-gray-400  ">
+                        <img className="w-full h-full object-cover " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQchjdsqap2SgoTH3rBXtdoqt40whWkNvS5Lg&usqp=CAU" alt="profile_img" />
+                    </div>
+
+                    <div className="flex flex-1 flex-col whitespace-pre-wrap  ">
+                        <div className="w-full text-[1.4rem] font-[500]  ">rauhlsharma</div>
+                        <div className="w-full text-[1.5rem]  ">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod voluptas, quasi molestiae quam placeat minima illum iusto
+                            esse voluptates magnam, delectus nobis corporis totam maiores omnis exercitationem reprehenderit ipsa neque?
+                        </div>
+                    </div>
+                </div>
+
+                <div className="w-full h-auto flex gap-x-[2rem]  ">
+                    <div className="w-[4.5rem] h-[4.5rem] rounded-[50%] overflow-hidden bg-gray-400  ">
+                        <img className="w-full h-full object-cover " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQchjdsqap2SgoTH3rBXtdoqt40whWkNvS5Lg&usqp=CAU" alt="profile_img" />
+                    </div>
+
+                    <div className="flex flex-1 flex-col whitespace-pre-wrap  ">
+                        <div className="w-full text-[1.4rem] font-[500]  ">rauhlsharma</div>
+                        <div className="w-full text-[1.5rem]  ">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod voluptas, quasi molestiae quam placeat minima illum iusto
+                            esse voluptates magnam, delectus nobis corporis totam maiores omnis exercitationem reprehenderit ipsa neque?
+                        </div>
+                    </div>
+                </div>
+
+                <div className="w-full h-auto flex gap-x-[2rem]  ">
+                    <div className="w-[4.5rem] h-[4.5rem] rounded-[50%] overflow-hidden bg-gray-400  ">
+                        <img className="w-full h-full object-cover " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQchjdsqap2SgoTH3rBXtdoqt40whWkNvS5Lg&usqp=CAU" alt="profile_img" />
+                    </div>
+
+                    <div className="flex flex-1 flex-col whitespace-pre-wrap  ">
+                        <div className="w-full text-[1.4rem] font-[500]  ">rauhlsharma</div>
+                        <div className="w-full text-[1.5rem]  ">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod voluptas, quasi molestiae quam placeat minima illum iusto
+                            esse voluptates magnam, delectus nobis corporis totam maiores omnis exercitationem reprehenderit ipsa neque?
+                        </div>
+                    </div>
+                </div>
 
                 <div className="w-full h-auto flex gap-x-[2rem]  ">
                     <div className="w-[4.5rem] h-[4.5rem] rounded-[50%] overflow-hidden bg-gray-400  ">

@@ -1,5 +1,6 @@
 import React from 'react';
 import Video from './Video';
+import VideopageSuggestions from './VideopageSuggestions';
 
 
 
@@ -12,10 +13,8 @@ const VideopageMain = () => {
                     <Video />
                 </div>
 
-                <div className="w-[35%] h-[100vh] bg-green-300  ">
-
-                    {/* related suggestion videos */}
-
+                <div className="w-[35%] h-auto  ">
+                    <VideopageSuggestions />
                 </div>
             </div>
         </div>
