@@ -6,13 +6,15 @@ import Video from './Video';
 const VideopageMain = () => {
 
     return (
-        <div className='w-full h-[200vh] flex justify-center bg-red-100 '>
-            <div className="w-[120rem] h-full flex bg-blue-100  ">
-                <div className="w-[65%] h-full bg-green-100 ">
+        <div className='w-full h-auto flex justify-center '>
+            <div className="w-[120rem] h-full pt-[2rem] pb-[5rem] flex  ">
+                <div className="w-[65%] h-full  ">
                     <Video />
                 </div>
 
-                <div className="w-[35%] h-full bg-green-300  ">
+                <div className="w-[35%] h-[100vh] bg-green-300  ">
+
+                    {/* related suggestion videos */}
 
                 </div>
             </div>
