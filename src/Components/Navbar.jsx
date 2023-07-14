@@ -7,13 +7,13 @@ import { AiFillAudio } from 'react-icons/ai';
 import { BsYoutube } from 'react-icons/bs';
 
 
-const Navbar = () => {
+const Navbar = ({ onOpen}) => {
 
     return (
         <div className='w-full h-[10vh] sticky top-0 z-10 flex text-[#282828] bg-white '>
 
             <div className="w-[20%] h-full ml-[1.5rem] flex justify-start items-center gap-x-[1.5rem] ">
-                <button className='p-[0.8rem] rounded-[50%] flex justify-center items-center hover:bg-gray-200 '>
+                <button onClick={()=>onOpen()} className='p-[0.8rem] rounded-[50%] flex justify-center items-center hover:bg-gray-200 '>
                     <RxHamburgerMenu className='text-[2rem]  ' />
                 </button>
                 <span className='h-full flex items-center gap-x-[0.5rem] text-[2rem] font-[700] '>
